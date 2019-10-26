@@ -3,7 +3,7 @@ import time
 import winsound
 
 wn = turtle.Screen()
-wn.title("PONG BY @SİKİCİ")
+wn.title("PONG BY @Gumut")
 wn.bgcolor("gray")
 wn.setup(width = 1200 , height=800)
 wn.tracer(0)
@@ -41,8 +41,8 @@ ball.shape("circle")
 ball.color("brown")
 ball.penup()
 ball.goto(0, 0)
-ball.dx = 0.2 #delta demek delta x
-ball.dy = -0.2 #delta demek delta y
+ball.dx = 0.2 
+ball.dy = -0.2 
 
 # Pen
 
@@ -77,7 +77,7 @@ def paddle_b_down():
     paddle_b.sety(y)
 
 
-# Keyboard binding(bağlamak)
+# Keyboard binding
 
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
